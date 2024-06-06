@@ -7,7 +7,7 @@ const title = "Our Products";
 
 const ProductData = [
 {
-imgUrl: 'src/assets/images/categoryTab/01.jpg',
+imgUrl: '/CategoryShowCase/01.jpg',
 cate: 'Kitchen',
 title: 'product 1',
 author: 'assets/images/course/author/01.jpg',
@@ -16,7 +16,7 @@ price: '$199.00',
 id: 1,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/02.jpg',
+imgUrl: '/CategoryShowCase/02.jpg',
 cate: 'Kitchen',
 title: 'product 2',
 author: 'assets/images/course/author/02.jpg',
@@ -25,16 +25,16 @@ price: '$199.00',
 id: 2,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/03.jpg',
+imgUrl: '/CategoryShowCase/03.jpg',
 cate: 'Kitchen',
 title: 'product 3',
-author: 'src/assets/images/categoryTab/brand/apple.png',
+author: '/categoryTab/brand/apple.png',
 brand: 'FAOU',
 price: '$199.00',
 id: 3,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/04.jpg',
+imgUrl: '/CategoryShowCase/04.jpg',
 cate: 'Bags',
 title: 'product 4',
 author: 'assets/images/course/author/04.jpg',
@@ -43,7 +43,7 @@ price: '$199.00',
 id: 4,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/05.jpg',
+imgUrl: '/CategoryShowCase/05.jpg',
 cate: 'Bedroom',
 title: 'product 5',
 author: 'assets/images/course/author/05.jpg',
@@ -52,7 +52,7 @@ price: '$199.00',
 id: 5,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/06.jpg',
+imgUrl: '/CategoryShowCase/06.jpg',
 cate: 'Chair & Bar stools',
 title: 'product 6',
 author: 'assets/images/course/author/06.jpg',
@@ -61,7 +61,7 @@ price: '$199.00',
 id: 6,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/07.jpg',
+imgUrl: '/CategoryShowCase/07.jpg',
 cate: 'Chair & Bar stools',
 title: 'product 7 ',
 author: 'assets/images/course/author/01.jpg',
@@ -70,7 +70,7 @@ price: '$199.00',
 id: 7,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/08.jpg',
+imgUrl: '/CategoryShowCase/08.jpg',
 cate: 'Home Decor',
 title: 'product 8',
 author: 'assets/images/course/author/02.jpg',
@@ -94,8 +94,8 @@ const CategoryShowCase = () => {
   return (
     <div className='course-section style-3 padding-tb'>
         {/* shapes */}
-        <div className='course-shape one'><img src="/src/assets/images/shape-img/icon/04.jpeg" alt="" height="161" width="256" /></div>
-        <div className='course-shape two'><img src="/src/assets/images/shape-img/icon/04.jpeg" alt="" height="150" width="190" /></div>
+        <div className='course-shape one'><img src="/CategoryShowCase/04.jpeg" alt="" height="161" width="256" /></div>
+        <div className='course-shape two'><img src="/CategoryShowCase/04.jpeg" alt="" height="150" width="190" /></div>
 
         {/* main section */}
         <div className='container'>

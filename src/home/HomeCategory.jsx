@@ -7,37 +7,37 @@ const btnText = "Get Started Now";
 
 const categoryList = [
 {
-imgUrl: 'src/assets/images/category/01.jpg',
+imgUrl: '/HomeCategory/01.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Bedroom',
 },
 {
-imgUrl: 'src/assets/images/category/02.jpg',
+imgUrl: '/HomeCategory/02.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Kitchen',
 },
 {
-imgUrl: 'src/assets/images/category/03.jpg',
+imgUrl: '/HomeCategory/03.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Decorative',
 },
 {
-imgUrl: 'src/assets/images/category/04.jpg',
+imgUrl: '/HomeCategory/04.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Chair & Bar stools',
 },
 {
-imgUrl: 'src/assets/images/category/05.jpg',
+imgUrl: '/HomeCategory/05.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Sofas and Armchairs',
 },
 {
-imgUrl: 'src/assets/images/category/06.jpg',
+imgUrl: '/HomeCategory/06.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Home Decor',

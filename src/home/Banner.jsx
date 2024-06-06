@@ -7,13 +7,13 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const ImageList = [
     {
-        imageUrl: "src/assets/images/bg-img/15.jpg"
+        imageUrl: "/Banner/15.jpg"
     },
     {
-        imageUrl: "src/assets/images/bg-img/19.jpg"
+        imageUrl: "/Banner/19.jpg"
     },
     {
-        imageUrl: "src/assets/images/bg-img/20.jpg"
+        imageUrl: "/Banner/20.jpg"
     },
 ];
 
