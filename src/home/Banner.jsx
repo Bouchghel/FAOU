@@ -33,15 +33,38 @@ const Banner = () => {
             className="mySwiper"
         >
             {ImageList.map((item, index) => (
-                <SwiperSlide key={index}>
-                    <img src={item.imageUrl} alt={`Slide ${index}`} style={{ width: '100%', height: '650px', objectFit: 'cover' }} />
+                <SwiperSlide key={index} style={{ position: 'relative' }}>
+                    <img src={item.imageUrl} alt={`Slide ${index}`} style={{ width: '100%', height: '650px', objectFit: 'cover' }}/>
+                    <div style={styles.textOverlay}>
+                        <h2 style={styles.text}>Quality is the best thing in the busine</h2>
+                    </div>
                 </SwiperSlide>
             ))}
         </Swiper>
     );
 }
 
+const styles = {
+    textOverlay: {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        color: 'white',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0)',
+        padding: '20px',
+        borderRadius: '10px'
+    },
+    text: {
+        fontSize: '66px',
+        fontWeight: 'bold',
+        color:'rgba(22,52,58,55)'
+    }
+};
+
 export default Banner;
+
 
     
 

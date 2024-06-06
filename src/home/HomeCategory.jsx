@@ -61,7 +61,7 @@ function HomeCategory() {
                 <div className='row g-4 justify-content-center row-cols-md-3 row-cols-sm-2 row-cols-1'>
                     {
                         categoryList.map((val,i)=>(<div key={i} className='col'>
-                            <Link to="/product" className='category-item'>
+                            <Link to="/" className='category-item'>
                                 <div className='category-inner'>
                                     {/* image thumbnail*/}
                                     <div className='category-thumb'>
@@ -73,7 +73,7 @@ function HomeCategory() {
                                         <div className='cate-icon'>
                                             <i className={val.iconName}></i>
                                         </div>
-                                        <Link to='/product'><h6>{val.title}</h6></Link>
+                                        <Link to='/'><h6>{val.title}</h6></Link>
 
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ function HomeCategory() {
                     }
                 </div>
                 <div className='text-center mt-5'>
-                    <Link to='/product' className='lab-btn'><span>{btnText}</span></Link>
+                    <Link to='/' className='lab-btn'><span>{btnText}</span></Link>
                 </div>
             </div>
         </div>

@@ -21,8 +21,8 @@ const NavItems = () => {
         <div className={`header-top d-md-none ${socialToggle?"open":""}`}>
             <div className='container'>
                 <div className='header-top-area'>
-                    <Link to="/signup" className='lab-btn me-3'><span>Create Account</span></Link>
-                    <Link to="/login">Log in</Link>
+                    <Link to="#" className='lab-btn me-3'><span>Create Account</span></Link>
+                    <Link to="#">Log in</Link>
                 </div>
             </div>
         </div>
@@ -43,16 +43,16 @@ const NavItems = () => {
                         <div className='menu'>
                             <ul className={`lab-ul ${menuToggle?"active":""}`}>
                                 <li><Link to={"/"}>Home</Link></li>
-                                <li><Link to={"/About"}>About</Link></li>
-                                <li><Link to={"/product"}>Product</Link></li>
-                                <li><Link to={"/blog"}>Blog</Link></li>
-                                <li><Link to={"/Contact"}>Contact Us</Link></li>
+                                <li><Link to={"/"}>About</Link></li>
+                                <li><Link to={"/"}>Product</Link></li>
+                                <li><Link to={"/"}>Blog</Link></li>
+                                <li><Link to={"/"}>Contact Us</Link></li>
                             </ul>
                         </div>
 
                         {/* Sign In */}
-                        <Link to="sign-up" className='lab-btn me-3 d-none d-md-block'>Create Account</Link>
-                        <Link to="/login" className='d-none d-md-block'>Log In</Link>
+                        <Link to="/" className='lab-btn me-3 d-none d-md-block'>Create Account</Link>
+                        <Link to="/" className='d-none d-md-block'>Log In</Link>
 
                         {/*menu toggler */}
                         <div onClick={()=>setMenuToggle(!menuToggle)} className={`header-bar d-lg-none ${menuToggle ? "active":""}`}>
