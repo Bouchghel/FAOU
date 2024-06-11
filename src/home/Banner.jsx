@@ -36,7 +36,7 @@ const Banner = () => {
                 <SwiperSlide key={index} style={{ position: 'relative' }}>
                     <img src={item.imageUrl} alt={`Slide ${index}`} style={{ width: '100%', height: '650px', objectFit: 'cover' }}/>
                     <div style={styles.textOverlay}>
-                        <h2 style={styles.text}>Quality is the best thing in the busine</h2>
+                        <h2 style={styles.text}>Quality is the best thing in the business</h2>
                     </div>
                 </SwiperSlide>
             ))}

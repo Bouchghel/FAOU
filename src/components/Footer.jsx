@@ -9,7 +9,7 @@ const tweetTitle = "Recent Tweets";
 const addressList = [
     {
         iconName: 'icofont-google-map',
-        text: ' New York, USA.',
+        text: ' CASABLANCA, MAR.',
     },
     {
         iconName: 'icofont-phone',
@@ -17,7 +17,7 @@ const addressList = [
     },
     {
         iconName: 'icofont-envelope',
-        text: ' info@shopcart.com',
+        text: ' info@FAOU.com',
     },
 ]
 
@@ -28,7 +28,7 @@ const socialList = [
         className: 'facebook',
     },
     {
-        iconName: 'icofont-twitter',
+        iconName: 'icofont-brand-nexus',
         siteLink: '#',
         className: 'twitter',
     },
@@ -52,19 +52,19 @@ const socialList = [
 const ItemList = [
     {
         text: 'All Products',
-        link: '/shop',
+        link: '/',
     },
     {
-        text: 'Shop',
-        link: '/shop',
+        text: 'Product',
+        link: '/',
     },
     {
         text: 'Blog',
-        link: '/blog',
+        link: '/',
     },
     {
         text: 'About',
-        link: '/about',
+        link: '/',
     },
     {
         text: 'Policy',
@@ -72,7 +72,7 @@ const ItemList = [
     },
     {
         text: 'FAQs',
-        link: '/about',
+        link: '/',
     }
 ]
 
@@ -105,7 +105,7 @@ const quickList = [
 
 const tweetList = [
     {
-        iconName: 'icofont-twitter',
+        iconName: 'icofont-brand-nexus',
         desc: <p>Aminur islam <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
     {

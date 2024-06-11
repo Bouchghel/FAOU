@@ -22,6 +22,7 @@ import {
 } from "react-router-dom";
 import Home from './home/Home.jsx';
 import Blog from './blog/Blog.jsx';
+import Contact from './contactPage/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,10 @@ const router = createBrowserRouter([
       },
       {path:"/blog",
        element:<Blog/>
-      }
+      },
+      {path:"/contact",
+        element:<Contact/>
+       }
     ]
   },
 ]);

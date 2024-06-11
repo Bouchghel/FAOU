@@ -46,7 +46,7 @@ const NavItems = () => {
                                 <li><Link to={"/"}>About</Link></li>
                                 <li><Link to={"/"}>Product</Link></li>
                                 <li><Link to={"/"}>Blog</Link></li>
-                                <li><Link to={"/"}>Contact Us</Link></li>
+                                <li><Link to={"/contact"}>Contact Us</Link></li>
                             </ul>
                         </div>
 

@@ -9,25 +9,25 @@ const categoryList = [
 {
 imgUrl: '/HomeCategory/01.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
+iconName: 'icofont-bed',
 title: 'Bedroom',
 },
 {
 imgUrl: '/HomeCategory/02.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
+iconName: 'icofont-dining-table',
 title: 'Kitchen',
 },
 {
 imgUrl: '/HomeCategory/03.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
+iconName: 'icofont-expand',
 title: 'Decorative',
 },
 {
 imgUrl: '/HomeCategory/04.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
+iconName: 'icofont-chair',
 title: 'Chair & Bar stools',
 },
 {
@@ -39,7 +39,7 @@ title: 'Sofas and Armchairs',
 {
 imgUrl: '/HomeCategory/06.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
+iconName: 'icofont-ui-home',
 title: 'Home Decor',
 },
 ]
@@ -50,7 +50,7 @@ function HomeCategory() {
     <div className='category-section style-4 padding-tb'>
         <div className='container'>
 
-            {/*section headr*/}
+            {/*section header*/}
             <div className='section-header text-center'>
                 <span className='subtitle'>{subTitle}</span>
                 <h2 className='title'>{title}</h2>
