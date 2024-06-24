@@ -73,7 +73,7 @@ const Product = () => {
                             </article>
                         </div>
                         <div className="col-lg-4 col-12 image-container">
-                            <img src='/image-dep/rightSide.jpg' alt='' className='full-height-image'/>
+                            <img src='/products/rightSide.jpg' alt='' className='full-height-image'/>
                         </div>
                     </div>
                 </div>
