@@ -44,7 +44,7 @@ const NavItems = () => {
                             <ul className={`lab-ul ${menuToggle?"active":""}`}>
                                 <li><Link to={"/"}>Home</Link></li>
                                 <li><Link to={"/"}>About</Link></li>
-                                <li><Link to={"/"}>Product</Link></li>
+                                <li><Link to={"/product"}>Product</Link></li>
                                 <li><Link to={"/"}>Blog</Link></li>
                                 <li><Link to={"/contact"}>Contact Us</Link></li>
                             </ul>
